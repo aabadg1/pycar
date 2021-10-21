@@ -40,6 +40,8 @@ def main2(size, titulo, colorfond): #introducimos a main2 las variables que quer
             car.turn(-1)
         if keys[pygame.K_RIGHT]:
             car.turn(1)
+        if keys[pygame.K_q]:#esto significa si pulsa la tecla q
+            break
         # print(t)
         # inputKey = input('press a key')
         # gameLoop(inputKey,car,screen)
